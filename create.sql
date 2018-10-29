@@ -74,5 +74,7 @@ create table pronostico(
     gol1 int not null,
     gol2 int not null
 );
-    
 
+
+alter table pronostico
+add constraint PRONOSTICO_PK  primary key (idPartido, usuario);
