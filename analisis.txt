@@ -1,0 +1,45 @@
+Persona 
+	Nacionalidad
+	Edad
+	Pago Inicial ( V o F)
+
+Pagar para participar:
+	sino no aparecera en listado de puntos, ni 
+	se marcara su participacion en la quiniela
+
+
+Confederacion
+	Nombre
+
+	-Pais
+		Nombre
+		-Jugador
+			numero
+			goles
+			posicion
+			peso
+			altura
+			nacimiento
+		Puntos
+
+
+Pais
+	-Localidad
+		-Partido
+			-Pais1
+				goles
+
+			-Pais2
+				goles
+
+			-Pronostico
+				Goles1
+				Goles 2
+
+
+
+
+Consideraciones
+	* Agregar un atributo para deducir si el partido ya se jugo o no
+
+	* 
