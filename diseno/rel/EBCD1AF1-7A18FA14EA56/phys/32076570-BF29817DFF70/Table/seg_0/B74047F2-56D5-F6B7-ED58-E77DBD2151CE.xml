@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="usuario" directorySegmentName="seg_0" id="B74047F2-56D5-F6B7-ED58-E77DBD2151CE">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="pasw" id="785AE104-6AAA-DC6D-A4BF-82B14D7C14B2">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pais" id="819E939F-8BB1-6332-64CA-B351F4A0CFFA">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pago" id="CDC7BD22-9BF0-A170-D356-D1C4033960E1">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<defaultValue>&apos;F&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="usuario" id="ECACD22A-8544-42B3-A98E-294DC8F6046E">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="USUARIO_PAIS" id="5A246A3D-5635-7E6E-5FAE-A3CA5294F64B">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="usuario_PK" id="7843E9D4-A68D-AB4E-545F-33AB2B50C80C">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

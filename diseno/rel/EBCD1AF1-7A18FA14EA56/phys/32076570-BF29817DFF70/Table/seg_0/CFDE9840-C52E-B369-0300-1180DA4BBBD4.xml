@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ciudad" directorySegmentName="seg_0" id="CFDE9840-C52E-B369-0300-1180DA4BBBD4">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nombre" id="A4B6E1D5-4F38-C173-8FAC-A64C7D309036">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="idCiudad" id="AD434109-1BC4-F0DB-F3CE-D8296E0861E8">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pais" id="E46163A1-F20E-C2D8-54FD-BBEF97E93B52">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PAIS_CIUDAD" id="DF06E0AA-041E-4FBE-1222-39A30D3BBF9C">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ciudad_PK" id="3D15EBDF-D644-C996-5B01-08B46C1D5FE6">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

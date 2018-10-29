@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C0B2FD9-9468-E069-A03E-6FF9C24AB4D8" name="pais">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>E002B70A-6F60-3B52-0EC1-6C0ED6F8AE9E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPais" id="054A7EDD-AB5E-DA5A-C5F1-B157E28B21D2">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>FE0DBDCD-DD13-0B85-DC54-4E089FC4CE8E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>74E05D53-7A42-2A83-7867-1538E68E6C52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="4EAA84B4-8AE1-2F84-7018-1BBDB7839551">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>FB53103D-5CEA-5E1A-D68E-D2A87C0A63EF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D7F80EA2-4741-3682-6B13-43430DAD7B8C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="confed" id="351F767B-05F1-A202-9F65-40805591048A">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>B3F7946E-AA66-1E7A-79D3-1E7DEE1C9170</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>74E05D53-7A42-2A83-7867-1538E68E6C52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80236A5A-9957-985E-3B9C-C392B015E981" referredColumn="4887BAC9-775A-5600-283C-B53B5C729A2A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF077CC3-DEF7-B19B-04A7-A2331DA5D39C" name="pais_PK">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>E2A2D24F-51C9-D3B0-6FBA-364814A208F4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="054A7EDD-AB5E-DA5A-C5F1-B157E28B21D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16BF519E-B0CB-AE2C-D952-3FA3502A7CF5" name="PAIS_CONF">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="351F767B-05F1-A202-9F65-40805591048A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,243 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4D989AB-06D6-0776-B856-5081CEA35C46" name="partido">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>A1DC330F-A939-EA75-F5D1-4660B06ECFFF</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPartido" id="AEA234F2-B63F-C0F2-C650-16C2F8B25D10">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>D75118D1-EC12-5107-C46E-0D8E562693D5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>74E05D53-7A42-2A83-7867-1538E68E6C52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad" id="665A670A-E86C-5D0E-AE69-E2726E6C9C6D">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>13E2EC2B-2D0A-93ED-DE79-A52E2259F351</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>74E05D53-7A42-2A83-7867-1538E68E6C52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="323925ED-A319-73E0-504A-18FA859BB290" referredColumn="AD434109-1BC4-F0DB-F3CE-D8296E0861E8"/>
+</associations>
+</Column>
+<Column name="fecha" id="1D5DDDCF-F234-C49A-205B-FA6A398B936A">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>A3122655-B322-E271-20D3-83478E7E6369</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1C8A7A33-1A4F-E307-4C52-15647371F2F4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais1" id="23AC7A2F-7D11-E278-520B-9BFAEF842918">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>8B710583-EA66-B62D-5EE0-BDFD33274739</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>74E05D53-7A42-2A83-7867-1538E68E6C52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F67E7E46-2145-4B31-544B-0370DBAD31B7" referredColumn="054A7EDD-AB5E-DA5A-C5F1-B157E28B21D2"/>
+</associations>
+</Column>
+<Column name="pais2" id="2745E2F3-CF47-E94A-602D-C43FC4274BDB">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>C4E12891-AD12-7A44-6D58-A36E56CBA47F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>74E05D53-7A42-2A83-7867-1538E68E6C52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7354FE3E-E1E9-B02E-BA6C-FF416A07D85B" referredColumn="054A7EDD-AB5E-DA5A-C5F1-B157E28B21D2"/>
+</associations>
+</Column>
+<Column name="arb1" id="A62F262F-2847-5D1C-AC4E-91578527078F">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>A59FD2BA-1D6D-35BF-A3CA-1A054AAA9A82</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>74E05D53-7A42-2A83-7867-1538E68E6C52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C769176-746C-A73F-E74F-C53353BBD72A" referredColumn="FE8B0B2F-F949-70F9-8C4E-AC6FBEA7B465"/>
+</associations>
+</Column>
+<Column name="arb2" id="6DE40FCB-EC53-AC58-1ED3-1870DDAF57A3">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>1CCCB9C1-2BAD-C457-A315-4CE4B8BB0152</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>74E05D53-7A42-2A83-7867-1538E68E6C52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40C7E0B2-0DB6-3FBA-9AEA-3390B16AF9DF" referredColumn="FE8B0B2F-F949-70F9-8C4E-AC6FBEA7B465"/>
+</associations>
+</Column>
+<Column name="arb3" id="C9630F5B-3122-35E2-4503-CFAD7B098022">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>11B536BC-DD28-79B1-5CF9-F209F41E1A07</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>74E05D53-7A42-2A83-7867-1538E68E6C52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A56482F6-3241-0651-7A25-952A0C513BC7" referredColumn="FE8B0B2F-F949-70F9-8C4E-AC6FBEA7B465"/>
+</associations>
+</Column>
+<Column name="gol1" id="A8250E2C-9873-B0AF-D4FE-01918E8201A9">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>7D9B525B-2C24-CADF-C3A3-827130E9A203</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>74E05D53-7A42-2A83-7867-1538E68E6C52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gol2" id="951496F1-C622-D469-B644-E7EFB664F6D8">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>E992CFDB-F64B-48E4-8FB5-533A652E9E46</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>74E05D53-7A42-2A83-7867-1538E68E6C52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jugado" id="16B0FA31-2A85-4E03-964D-0E169B61BE9F">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>84B59C58-8C98-69D4-93BF-10810366FB09</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>54F25C42-40C1-DB2C-7968-8168A50A64F9</domain>
+<defaultValue>&apos;F&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57FEC073-877F-1813-1913-1B0F3099414F" name="partido_PK">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>34C1299B-E6CD-D108-61A5-C57F845C9D41</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEA234F2-B63F-C0F2-C650-16C2F8B25D10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFA63624-E49C-FD2B-AC9F-0DDF153DA789" name="ARB1_PARTIDO">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A62F262F-2847-5D1C-AC4E-91578527078F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="725BC081-FC87-3B06-9B8C-7308F26B72DF" name="ARB2_PARTIDO">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DE40FCB-EC53-AC58-1ED3-1870DDAF57A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EBCA795-5622-B7FB-CA72-282176B92DB7" name="ARB3_PARTIDO">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9630F5B-3122-35E2-4503-CFAD7B098022"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E55465F1-7005-9554-8D00-00FB13531A30" name="CIUDAD_PARTIDO">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="665A670A-E86C-5D0E-AE69-E2726E6C9C6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7C992B7-CBF7-8FC1-4E06-74B7BF584E12" name="PAIS1_PARTIDO">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23AC7A2F-7D11-E278-520B-9BFAEF842918"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1346F9B-1C6F-C171-BCB7-ADC58FB60818" name="PAIS2_PARTIDO">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2745E2F3-CF47-E94A-602D-C43FC4274BDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

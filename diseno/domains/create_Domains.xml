@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="create_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="1C8A7A33-1A4F-E307-4C52-15647371F2F4">
+         <createdBy>jenn</createdBy>
+         <createdTime>2018-10-29 22:21:28 UTC</createdTime>
+         <ownerDesignName>diseno</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>create_Domains</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1" id="54F25C42-40C1-DB2C-7968-8168A50A64F9">
+         <createdBy>jenn</createdBy>
+         <createdTime>2018-10-29 22:21:28 UTC</createdTime>
+         <ownerDesignName>diseno</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>1</dataTypeSize>
+         <fileName>create_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_64" id="64CC1266-BC63-61D3-8291-3BA171A9E760">
+         <createdBy>jenn</createdBy>
+         <createdTime>2018-10-29 22:21:28 UTC</createdTime>
+         <ownerDesignName>diseno</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>64</dataTypeSize>
+         <fileName>create_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="74E05D53-7A42-2A83-7867-1538E68E6C52">
+         <createdBy>jenn</createdBy>
+         <createdTime>2018-10-29 22:21:28 UTC</createdTime>
+         <ownerDesignName>diseno</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>create_Domains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_128" id="D7F80EA2-4741-3682-6B13-43430DAD7B8C">
+         <createdBy>jenn</createdBy>
+         <createdTime>2018-10-29 22:21:28 UTC</createdTime>
+         <ownerDesignName>diseno</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>128</dataTypeSize>
+         <fileName>create_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

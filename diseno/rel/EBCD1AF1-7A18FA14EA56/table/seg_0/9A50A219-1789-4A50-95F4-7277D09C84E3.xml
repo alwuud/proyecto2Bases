@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A50A219-1789-4A50-95F4-7277D09C84E3" name="pronostico">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>C77CA0C9-D418-E09B-255A-0F8FB89EECAD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPartido" id="FA97E0F0-F84E-08DC-2D6B-BE24D31B10BD">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>CA714AF4-5255-1BB4-1283-0B3679568E2A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>74E05D53-7A42-2A83-7867-1538E68E6C52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73F7C590-5088-6CC1-6E1B-AEFD18A29D3E" referredColumn="AEA234F2-B63F-C0F2-C650-16C2F8B25D10"/>
+</associations>
+</Column>
+<Column name="usuario" id="1EF1A89C-D49D-5F9B-1352-83E2212135CB">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>98938910-3622-14B3-DECA-DF213626C376</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64CC1266-BC63-61D3-8291-3BA171A9E760</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06FEFD41-0603-D21E-0A1B-EE4B8896873F" referredColumn="ECACD22A-8544-42B3-A98E-294DC8F6046E"/>
+</associations>
+</Column>
+<Column name="gol1" id="F5700C70-6A8B-4A83-0571-BA28EE847926">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>D214AB7B-1D8A-0157-001C-A8FD3D08EFD5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>74E05D53-7A42-2A83-7867-1538E68E6C52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gol2" id="2C065B10-FD8E-5C57-F799-C524B28DD128">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>0BFD4318-FC4D-AAC0-E2D8-105AE0FFC0BF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>74E05D53-7A42-2A83-7867-1538E68E6C52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C67A69F-E4DF-3292-AAAC-BDEBCBDF4798" name="pronostico_PK">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:56:18 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA97E0F0-F84E-08DC-2D6B-BE24D31B10BD"/>
+<colUsage columnID="1EF1A89C-D49D-5F9B-1352-83E2212135CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF26ACC9-9CBC-EFCE-F31B-E1B20E35583B" name="PARTIDO_PRONOSTICO">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA97E0F0-F84E-08DC-2D6B-BE24D31B10BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F159452-D140-00F5-854D-16FE8E275F73" name="USUARIO_PRONOSTICO">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EF1A89C-D49D-5F9B-1352-83E2212135CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

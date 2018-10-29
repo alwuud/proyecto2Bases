@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B74047F2-56D5-F6B7-ED58-E77DBD2151CE" name="usuario">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>546FAC28-44F0-7A90-40EA-FEDD8ECAF498</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="usuario" id="ECACD22A-8544-42B3-A98E-294DC8F6046E">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>9463CEF2-8EBE-4E53-301E-6B8EE9F59CD0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>64CC1266-BC63-61D3-8291-3BA171A9E760</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pasw" id="785AE104-6AAA-DC6D-A4BF-82B14D7C14B2">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>BAF8D35E-5BFE-BF77-235B-D9BF527344A5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D7F80EA2-4741-3682-6B13-43430DAD7B8C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="819E939F-8BB1-6332-64CA-B351F4A0CFFA">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>1F7F8068-1F99-CC41-42E9-28E7B923A4DB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>74E05D53-7A42-2A83-7867-1538E68E6C52</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7F376CF-3D99-C3FC-9FC1-56D2D670B65A" referredColumn="054A7EDD-AB5E-DA5A-C5F1-B157E28B21D2"/>
+</associations>
+</Column>
+<Column name="pago" id="CDC7BD22-9BF0-A170-D356-D1C4033960E1">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>A06EFA5B-2287-3675-183E-C530E008BC08</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>54F25C42-40C1-DB2C-7968-8168A50A64F9</domain>
+<defaultValue>&apos;F&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7843E9D4-A68D-AB4E-545F-33AB2B50C80C" name="usuario_PK">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>113FB17C-BE59-0A23-382C-529C0BB77133</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECACD22A-8544-42B3-A98E-294DC8F6046E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A246A3D-5635-7E6E-5FAE-A3CA5294F64B" name="USUARIO_PAIS">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="819E939F-8BB1-6332-64CA-B351F4A0CFFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

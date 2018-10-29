@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="partido" directorySegmentName="seg_0" id="D4D989AB-06D6-0776-B856-5081CEA35C46">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="jugado" id="16B0FA31-2A85-4E03-964D-0E169B61BE9F">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<defaultValue>&apos;F&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="fecha" id="1D5DDDCF-F234-C49A-205B-FA6A398B936A">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pais1" id="23AC7A2F-7D11-E278-520B-9BFAEF842918">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pais2" id="2745E2F3-CF47-E94A-602D-C43FC4274BDB">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ciudad" id="665A670A-E86C-5D0E-AE69-E2726E6C9C6D">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="arb2" id="6DE40FCB-EC53-AC58-1ED3-1870DDAF57A3">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="gol2" id="951496F1-C622-D469-B644-E7EFB664F6D8">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="arb1" id="A62F262F-2847-5D1C-AC4E-91578527078F">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="gol1" id="A8250E2C-9873-B0AF-D4FE-01918E8201A9">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="idPartido" id="AEA234F2-B63F-C0F2-C650-16C2F8B25D10">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="arb3" id="C9630F5B-3122-35E2-4503-CFAD7B098022">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ARB3_PARTIDO" id="3EBCA795-5622-B7FB-CA72-282176B92DB7">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ARB2_PARTIDO" id="725BC081-FC87-3B06-9B8C-7308F26B72DF">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PAIS2_PARTIDO" id="B1346F9B-1C6F-C171-BCB7-ADC58FB60818">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PAIS1_PARTIDO" id="D7C992B7-CBF7-8FC1-4E06-74B7BF584E12">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CIUDAD_PARTIDO" id="E55465F1-7005-9554-8D00-00FB13531A30">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ARB1_PARTIDO" id="FFA63624-E49C-FD2B-AC9F-0DDF153DA789">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="partido_PK" id="57FEC073-877F-1813-1913-1B0F3099414F">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="73F7C590-5088-6CC1-6E1B-AEFD18A29D3E" containerWithKeyObject="9A50A219-1789-4A50-95F4-7277D09C84E3" localFKIndex="AF26ACC9-9CBC-EFCE-F31B-E1B20E35583B" name="PARTIDO_PRONOSTICO">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>9A5F1B54-8779-1ED9-20D1-B9465A8F90CA</importedID>
+<referredTableLongName>partido</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D4D989AB-06D6-0776-B856-5081CEA35C46</referredTableID>
+<keyObject>57FEC073-877F-1813-1913-1B0F3099414F</keyObject>
+<referredKeyID>57FEC073-877F-1813-1913-1B0F3099414F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idPartido</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

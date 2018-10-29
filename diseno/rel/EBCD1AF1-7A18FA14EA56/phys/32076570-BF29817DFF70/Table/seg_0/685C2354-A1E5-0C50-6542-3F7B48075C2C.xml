@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="confederacion" directorySegmentName="seg_0" id="685C2354-A1E5-0C50-6542-3F7B48075C2C">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="idConf" id="4887BAC9-775A-5600-283C-B53B5C729A2A">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombre" id="EADFCEA5-C77A-B7E4-9431-B7F0950FE8A8">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="confederacion_PK" id="7EE84941-DB97-E767-C265-1268122B311A">
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

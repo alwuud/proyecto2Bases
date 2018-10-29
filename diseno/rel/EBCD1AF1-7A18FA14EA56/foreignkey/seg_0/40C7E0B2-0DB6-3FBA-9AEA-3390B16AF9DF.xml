@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="40C7E0B2-0DB6-3FBA-9AEA-3390B16AF9DF" containerWithKeyObject="D4D989AB-06D6-0776-B856-5081CEA35C46" localFKIndex="725BC081-FC87-3B06-9B8C-7308F26B72DF" name="ARB2_PARTIDO">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:28 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<importedID>FA85E692-7953-2CE7-B948-AB742CF637BA</importedID>
+<referredTableLongName>arbitro</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>114FA2D7-42DE-AB4B-6493-D61BF1DDF9C3</referredTableID>
+<keyObject>E4E9C476-56F4-5852-8637-E37830E298E2</keyObject>
+<referredKeyID>E4E9C476-56F4-5852-8637-E37830E298E2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idArbitro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

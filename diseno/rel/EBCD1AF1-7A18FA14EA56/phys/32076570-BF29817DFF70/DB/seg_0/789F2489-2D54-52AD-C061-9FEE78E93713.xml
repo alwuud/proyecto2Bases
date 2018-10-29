@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataBaseOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataBaseOraclev10g" name="py2Bases" directorySegmentName="seg_0" id="789F2489-2D54-52AD-C061-9FEE78E93713">
+<sourceDDLFile>create.sql</sourceDDLFile>
+<createdBy>jenn</createdBy>
+<createdTime>2018-10-29 22:21:19 UTC</createdTime>
+<ownerDesignName>diseno</ownerDesignName>
+<archiveLog>NO</archiveLog>
+</DataBaseOraclev10g>
