@@ -13,6 +13,20 @@ create table pais(
 
 );
 
+create table jugador(
+    idPais int,
+    noJugador int , 
+    nombre varchar(128) not null,
+    nacimiento date,
+    altura int not null,
+    peso int not null,
+    goles int not null,
+    constraint JUGADOR_PK  primary key(idPais, noJugador),
+    constraint PAIS_JUGADOR foreign key (idPais) references pais(idPais)
+
+
+);
+
 create table usuario(
 	usuario varchar(64) primary key,
     pasw   varchar(128) not null,
@@ -71,10 +85,8 @@ create table pronostico(
     usuario varchar(128) not null,
     constraint PARTIDO_PRONOSTICO foreign key (idPartido) references partido(idPartido),
     constraint USUARIO_PRONOSTICO foreign key (usuario) references usuario(usuario),
+    constraint PRONOSTICO_PK  primary key (idPartido, usuario),
     gol1 int not null,
     gol2 int not null
 );
 
-
-alter table pronostico
-add constraint PRONOSTICO_PK  primary key (idPartido, usuario);
