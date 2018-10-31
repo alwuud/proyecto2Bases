@@ -59,6 +59,17 @@ create table torneo(
 );
 
 
+create table grupo(
+    idGrupo char(2) primary key,
+    idTorneo int,
+
+    constraint TORNEO_GRUPO foreign key (idTorneo) references torneo(idTorneo)
+);
+
+alter table pais add column grupo char(2) not null;
+
+alter table pais add constraint GRUPO_PAIS  foreign key (grupo) references grupo(idGrupo);
+
 
 create table partido(
 	idPartido int primary key,
